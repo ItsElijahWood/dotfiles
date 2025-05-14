@@ -1,4 +1,4 @@
-Config overview:
+Ej's Config overview:
 
 kitty configurations in ~/dotfiles/kitty/kitty.conf add this conf file contentes manually into ~/.config/kitty/kitty.conf
 waybar configurations in ~/dotfiles/waybar
