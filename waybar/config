@@ -65,21 +65,19 @@
         "format": "  {:%I:%M %p}"
     },
     "network": {
-        "format-wifi" : "{icon}",
+        "format-wifi" : "{icon}  {essid}",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
         "format-ethernet": "󰀂",
-	"format-alt" : "󱛇",
         "format-disconnected" : "󰖪",
 	"tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
 	"tooltip-format-disconnected": "Disconnected",
-	"on-click": "~/.config/rofi/wifi/wifi.sh &",
-        "on-click-right": "~/.config/rofi/wifi/wifinew.sh &",
+	"on-click": "kitty bash -c 'nmtui; exec bash'",
 	"interval": 5,
 	"nospacing": 1,
     },
     "wireplumber": {
-        "format": "{icon}",
+        "format": "{icon}  {volume}%",
         "format-bluetooth": "󰂰",
         "nospacing": 1,
         "tooltip-format": "Volume : {volume}%",
@@ -97,7 +95,7 @@
         "on-click": "~/dotfiles/waybar/launcher.sh &"
     },
     "battery": {
-        "format": "{capacity}% {icon}",
+        "format": "{icon} {capacity}%",
         "format-icons": {
             "charging": [
                 "󰢜",
@@ -133,8 +131,8 @@
         "tooltip": false
     },
     "custom/power": {
-        "format": "󰤆  Shutdown",
+        "format": "󰤆",
         "tooltip": false,
-        "on-click": "shutdown -r now"
+        "on-click": "shutdown now"
     }
 }

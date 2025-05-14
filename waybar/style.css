@@ -7,10 +7,10 @@
 }
 
 window#waybar {
-  background-color: #181825;
+  background-color: rgba(24, 24, 37, 0);
   transition-property: background-color;
   transition-duration: 0.5s;
-}
+}  
 
 window#waybar.hidden {
   opacity: 0.5;
