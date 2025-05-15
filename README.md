@@ -5,7 +5,7 @@ waybar configurations in ~/dotfiles/waybar
 
 commands: sudo pacman -S waybar pavucontrol ttf-jetbrains-mono-nerd neofetch swaybg xclip
 
-extra commands (not needed): sudo pacman -S neovim
+extra commands (not needed): sudo pacman -S neovim bluez bluez-utils blueman
 
 add to hyprland.conf: source=~/dotfiles/config_hyprland.conf
 
