@@ -6,9 +6,9 @@
   "modules-center": ["clock", "custom/weather"],
 
   "modules-right": [
+    "network",
     "pulseaudio",
     "battery",
-    "network",
     "cpu",
     "tray",
     "custom/lock",
