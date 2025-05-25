@@ -1,9 +1,9 @@
 * {
   font-family: JetbrainsMono Nerd Font;
-  font-size: 15px;
-  min-height: 20px;
-  padding-right: 4px;
-  padding-left: 4px;
+  font-size: 18px;
+  min-height: 25px;
+  padding-right: 6px;
+  padding-left: 6px;
   padding-bottom: 0px;
 }
 
@@ -71,15 +71,23 @@ button {
 }
 
 #battery {
-  color: #a6d189;
+  color: #a6d189; 
 }
 
 #battery.charging {
   color: #a6d189;
 }
 
-#battery.warning:not(.charging) {
-  color: #e78284;
+#battery.critical {
+  color: #ff0000;
+}
+
+#battery.warning {
+  color: #FFEA00;
+}
+
+#battery.good {
+  color: #a6d189;
 }
 
 #backlight {

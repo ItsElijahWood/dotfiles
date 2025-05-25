@@ -1,1 +1,2 @@
 neofetch
+alias vim='nvim'

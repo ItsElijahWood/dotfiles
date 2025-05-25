@@ -46,7 +46,13 @@
   },
 
   "battery": {
-    "format": "  {capacity}%"
+    "format": "  {capacity}%",
+    "critical-threshold": 20,
+    "states": {
+      "critical": 20,
+      "warning": 30,
+      "good": 80
+    },
   },
 
   "network": {
