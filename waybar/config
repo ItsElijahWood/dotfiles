@@ -82,6 +82,6 @@
   "custom/power": {
     "tooltip": false,
     "on-click": "shutdown now",
-    "format": "⏻"
+    "format": "⏻ "
   },
 }
