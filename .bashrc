@@ -1,2 +1,2 @@
-neofetch
+fastfetch
 alias vim='nvim'
