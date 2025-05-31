@@ -7,6 +7,8 @@ sudo pacman -Syu --noconfirm
 
 echo "[*] Installing packages.."
 sudo pacman -S --noconfirm \
+      git \
+      firefox \
       waybar \
       pavucontrol \
       ttf-jetbrains-mono-nerd \

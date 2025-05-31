@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["custom/ip", "hyprland/workspaces"],
 
   "modules-center": ["clock", "custom/weather"],
 
@@ -12,8 +12,16 @@
     "cpu",
     "tray",
     "custom/lock",
-    "custom/power"
+    "custom/power",
   ],
+  
+  "custom/ip": {
+  "format": "- Up(ip = {})",
+  "tooltip": true,
+  "tooltip-format": "{}",
+  "exec": "ip -4 addr show | grep -oP '(?<=inet\\s)\\d+(\\.\\d+){3}' | grep -v '^127'",
+  "interval": 30
+},
 
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
