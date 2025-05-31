@@ -26,6 +26,13 @@ else
   echo "[!] Directory $HOME/yay already exists, Skipping."
 fi
 
+echo "[*] Installing Rust.."
+if command -v rustc >/dev/null 2>&1; then
+  echo "[*] Rust is already installed, Skipping."
+else
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+fi
+
 echo "[*] Installing neovim configurations.."
 if [ ! -d "$HOME/.config/nvim" ]; then
   git clone https://github.com/itselijahwood/init.lua.git ~/.config
