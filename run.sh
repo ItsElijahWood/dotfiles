@@ -20,6 +20,10 @@ sudo pacman -S --noconfirm \
       bluez \
       bluez-utils
 
+echo "[*] Starting Services.."
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
 echo "[*] Cloning yay AUR helper.."
 if [ ! -d "$HOME/yay" ]; then
   git clone https://aur.archlinux.org/yay.git ~
