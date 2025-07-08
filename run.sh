@@ -32,11 +32,12 @@ else
   echo "[!] Directory $HOME/yay already exists, Skipping."
 fi
 
-echo "[*] Installing Rust.."
-if command -v rustc >/dev/null 2>&1; then
-  echo "[*] Rust is already installed, Skipping."
+echo "[*] Installing JavaScript.."
+if command -v node >/dev/null 2>&1; then
+  echo "[*] JavaScript is already installed, Skipping."
 else
-  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+  sudo pacman -S --noconfirm nodejs \
+  npm
 fi
 
 echo "[*] Installing neovim configurations.."
