@@ -12,7 +12,6 @@ sudo pacman -S --noconfirm \
       waybar \
       pavucontrol \
       ttf-jetbrains-mono-nerd \
-      fastfetch \
       swaybg \
       neovim \
       wl-clipboard \
