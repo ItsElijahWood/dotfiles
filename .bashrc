@@ -1,2 +1,1 @@
-fastfetch
 alias vim='nvim'

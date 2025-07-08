@@ -17,31 +17,17 @@ sudo pacman -S --noconfirm \
       wl-clipboard \
       kdenlive \
       bluez \
-      bluez-utils
+      bluez-utils \
+      nodejs \
+      npm
 
 echo "[*] Starting Services.."
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
-echo "[*] Cloning yay AUR helper.."
-if [ ! -d "$HOME/yay" ]; then
-  git clone https://aur.archlinux.org/yay.git ~
-  echo "[*] yay cloned successfully"
-else 
-  echo "[!] Directory $HOME/yay already exists, Skipping."
-fi
-
-echo "[*] Installing JavaScript.."
-if command -v node >/dev/null 2>&1; then
-  echo "[*] JavaScript is already installed, Skipping."
-else
-  sudo pacman -S --noconfirm nodejs \
-  npm
-fi
-
 echo "[*] Installing neovim configurations.."
 if [ ! -d "$HOME/.config/nvim" ]; then
-  git clone https://github.com/itselijahwood/init.lua.git ~/.config
+  git clone https://github.com/itselijahwood/init.lua.git ~/.config/nvim
   mv ~/.config/init.lua ~/.config/nvim
   echo "[*] Neovim setup successfully"
 else
