@@ -19,7 +19,8 @@ sudo pacman -S --noconfirm \
       bluez \
       bluez-utils \
       nodejs \
-      npm
+      npm \
+      bind-tools \
 
 echo "[*] Starting Services.."
 sudo systemctl enable bluetooth.service
