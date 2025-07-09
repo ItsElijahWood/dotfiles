@@ -15,12 +15,13 @@ sudo pacman -S --noconfirm \
       swaybg \
       neovim \
       wl-clipboard \
-      kdenlive \
       bluez \
       bluez-utils \
       nodejs \
       npm \
       bind-tools \
+      shotcut \
+      obs-studio \
 
 echo "[*] Starting Services.."
 sudo systemctl enable bluetooth.service
