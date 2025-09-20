@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOMAIN="digiboard.cloud"
+DOMAIN="elijahwood.co.uk"
 TIMEOUT=3
 
 # Check HTTP status code
