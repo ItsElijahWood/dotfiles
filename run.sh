@@ -13,6 +13,7 @@ sudo pacman -S --noconfirm \
       pavucontrol \
       ttf-jetbrains-mono-nerd \
       swaybg \
+      pipewire-pulse \
       neovim \
       wl-clipboard \
       bluez \
@@ -28,12 +29,10 @@ sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
 echo "[*] Installing neovim configurations.."
-if [ ! -d "$HOME/.config/nvim" ]; then
-  git clone https://github.com/itselijahwood/init.lua.git ~/.config/nvim
-  mv ~/.config/init.lua ~/.config/nvim
-  echo "[*] Neovim setup successfully"
-else
-  echo "[!] Directory $HOME/.config/nvim already exists, Skipping."
-fi
+
+git clone https://github.com/itselijahwood/init.lua.git ~/.config/nvim
+mv ~/.config/init.lua ~/.config/nvim
+
+echo "[*] Neovim setup successfully"
 
 echo "[✔] Setup completed successfully."
