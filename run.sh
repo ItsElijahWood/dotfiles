@@ -35,6 +35,7 @@ git clone https://github.com/itselijahwood/init.lua.git ~/.config/nvim
 mv ~/.config/init.lua ~/.config/nvim
 
 echo "[*] Neovim setup successfully"
-echo "If steam does not install, uncomment # at /etc/pacman.conf for multilib
+echo "If steam does not install, uncomment # at /etc/pacman.conf for multilib"
+echo "Make sure to also manually install ProtonVPN from flatpak"
 
 echo "[✔] Setup completed successfully."
