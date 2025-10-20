@@ -23,6 +23,7 @@ sudo pacman -S --noconfirm \
       bind-tools \
       shotcut \
       obs-studio \
+      steam \
 
 echo "[*] Starting Services.."
 sudo systemctl enable bluetooth.service
@@ -34,5 +35,6 @@ git clone https://github.com/itselijahwood/init.lua.git ~/.config/nvim
 mv ~/.config/init.lua ~/.config/nvim
 
 echo "[*] Neovim setup successfully"
+echo "If steam does not install, uncomment # at /etc/pacman.conf for multilib
 
 echo "[✔] Setup completed successfully."
