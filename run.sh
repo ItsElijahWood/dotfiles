@@ -24,6 +24,8 @@ sudo pacman -S --noconfirm \
       shotcut \
       obs-studio \
       steam \
+      grim \
+      swappy \
 
 echo "[*] Starting Services.."
 sudo systemctl enable bluetooth.service

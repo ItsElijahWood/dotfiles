@@ -6,7 +6,6 @@
   "modules-center": ["clock", "custom/weather"],
 
   "modules-right": [
-    "network",
     "pulseaudio",
     "battery",
     "cpu",
@@ -62,15 +61,6 @@
       "warning": 30,
       "good": 80
     },
-  },
-
-  "network": {
-    "format-wifi": "󰤢  {essid}",
-    "format-ethernet": "󰈀  {essid}",
-    "format-disconnected": "󰤠 No Network",
-    "interval": 5,
-    "tooltip": false,
-    "on-click": "kitty -e bash -c 'nmtui'"
   },
 
   "cpu": {
