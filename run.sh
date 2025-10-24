@@ -25,6 +25,7 @@ sudo pacman -S --noconfirm \
       obs-studio \
       steam \
       grim \
+      code \
       swappy \
 
 echo "[*] Starting Services.."
