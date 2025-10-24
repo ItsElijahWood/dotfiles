@@ -39,5 +39,6 @@ mv ~/.config/init.lua ~/.config/nvim
 echo "[*] Neovim setup successfully"
 echo "If steam does not install, uncomment # at /etc/pacman.conf for multilib"
 echo "Make sure to also manually install ProtonVPN from flatpak"
+echo "Install google chrome from yay package.";
 
 echo "[✔] Setup completed successfully."
