@@ -54,9 +54,9 @@
   "menus.dashboard.shortcuts.left.shortcut3.tooltip": "",
   "menus.dashboard.shortcuts.right.shortcut3.command": "",
   "menus.dashboard.shortcuts.right.shortcut3.icon": "",
-  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "",
-  "menus.dashboard.shortcuts.right.shortcut1.command": "",
-  "menus.dashboard.shortcuts.right.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Color Picker",
+  "menus.dashboard.shortcuts.right.shortcut1.command": "sleep 0.5 && hyprpicker -a",
+  "menus.dashboard.shortcuts.right.shortcut1.icon": "",
   "menus.dashboard.shortcuts.right.shortcut3.tooltip": "",
   "menus.dashboard.shortcuts.left.shortcut4.icon": "",
   "menus.dashboard.shortcuts.left.shortcut4.command": "",
@@ -125,7 +125,7 @@
   "menus.dashboard.controls.enabled": false,
   "bar.customModules.worldclock.formatDiffDate": "%a %b %d  %I:%M:%S %p %Z",
   "bar.customModules.worldclock.showIcon": true,
-  "menus.dashboard.powermenu.avatar.image": "/home/itselijahwood/projects/Personal/Discord/Emojis/tuxpc.gif",
+  "menus.dashboard.powermenu.avatar.image": "/home/itselijahwood/programming/projects/Personal/Discord/Emojis/tuxpc.gif",
   "menus.clock.time.military": true,
   "menus.clock.time.hideSeconds": true,
   "theme.font.size": "1.2rem",
@@ -137,5 +137,8 @@
   "bar.network.label": false,
   "bar.network.truncation": false,
   "scalingPriority": "gdk",
-  "theme.bar.buttons.separator.width": "0.1em"
+  "theme.bar.buttons.separator.width": "0.1em",
+  "menus.media.hideAuthor": false,
+  "menus.media.hideAlbum": false,
+  "menus.media.displayTime": false
 }
