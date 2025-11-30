@@ -9,7 +9,6 @@ echo "[*] Installing packages.."
 sudo pacman -S --noconfirm \
       git \
       firefox \
-      waybar \
       pavucontrol \
       ttf-jetbrains-mono-nerd \
       swaybg \
@@ -23,23 +22,24 @@ sudo pacman -S --noconfirm \
       bind-tools \
       shotcut \
       obs-studio \
-      steam \
       grim \
-      code \
       swappy \
+      rofi \
+      aylurs-gtk-shell-git \
+      wireplumber \
+      libgtop \
+      networkmanager \
+      dart-sass \
+      upower \
+      gvfs \
+      gtksourceview3 \
+      libsoup3 \
+      swww
 
 echo "[*] Starting Services.."
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
-echo "[*] Installing neovim configurations.."
-
-git clone https://github.com/itselijahwood/init.lua.git ~/.config/nvim
-mv ~/.config/init.lua ~/.config/nvim
-
-echo "[*] Neovim setup successfully"
-echo "If steam does not install, uncomment # at /etc/pacman.conf for multilib"
-echo "Make sure to also manually install ProtonVPN from flatpak"
-echo "Install google chrome from yay package.";
+echo "Uncomment # at /etc/pacman.conf for multilib (extended AUR)"
 
 echo "[✔] Setup completed successfully."
