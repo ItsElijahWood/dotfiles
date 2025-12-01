@@ -36,7 +36,8 @@ sudo pacman -S --noconfirm \
       gtksourceview3 \
       libsoup3 \
       swww \
-      hyprpicker
+      hyprpicker \
+      fastfetch
 
 echo "[*] Starting Services.."
 sudo systemctl enable bluetooth.service
