@@ -8,7 +8,7 @@
   "theme.bar.menus.monochrome": false,
   "wallpaper.pywal": false,
   "theme.bar.menus.border.size": "0.13em",
-  "theme.bar.transparent": false,
+  "theme.bar.transparent": true,
   "theme.bar.menus.buttons.radius": "0.4em",
   "menus.clock.weather.location": "Los Angeles",
   "menus.dashboard.shortcuts.enabled": true,
@@ -37,7 +37,7 @@
   "theme.bar.menus.enableShadow": false,
   "theme.bar.buttons.borderSize": "0.1em",
   "theme.bar.shadow": "0px 1px 2px 1px #16161e",
-  "theme.bar.border.location": "full",
+  "theme.bar.border.location": "none",
   "theme.bar.shadowMargins": "0px 0px 4px 0px",
   "bar.autoHide": "fullscreen",
   "theme.notification.border_radius": "0.6em",
@@ -72,9 +72,12 @@
   "bar.layouts": {
     "0": {
       "left": [
-        "dashboard"
+        "dashboard",
+        "workspaces"
       ],
-      "middle": [],
+      "middle": [
+        "media"
+      ],
       "right": [
         "volume",
         "network",
@@ -83,9 +86,12 @@
     },
     "1": {
       "left": [
-        "dashboard"
+        "dashboard",
+        "workspaces"
       ],
-      "middle": [],
+      "middle": [
+        "media"
+      ],
       "right": [
         "volume",
         "clock"
@@ -93,9 +99,12 @@
     },
     "2": {
       "left": [
-        "dashboard"
+        "dashboard",
+        "workspaces"
       ],
-      "middle": [],
+      "middle": [
+        "media"
+      ],
       "right": [
         "volume",
         "clock"
@@ -138,5 +147,7 @@
   "bar.customModules.cava.showIcon": true,
   "bar.network.truncation_size": 7,
   "theme.bar.opacity": 95,
-  "theme.bar.buttons.opacity": 100
+  "theme.bar.buttons.opacity": 100,
+  "bar.media.show_label": true,
+  "bar.media.truncation": true
 }

@@ -1,11 +1,11 @@
 * {
-	bg: rgba(25, 23, 36, 0.6);
+	bg: rgba(76, 119, 119, 0.6);
 	cur: #1f1d2e;
 	fgd: #e0def4;
 	cmt: #6e6a86;
 	cya: #9ccfd8;
-	grn: #A69ACB;
-	ora: #261752;
+	grn: #4C7777;
+	ora: #8FB9B9;
 	pur: #c4a7e7;
 	red: #eb6f92;
 	yel: #f6c177;
