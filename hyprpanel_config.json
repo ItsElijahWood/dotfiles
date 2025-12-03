@@ -121,7 +121,7 @@
   "menus.dashboard.controls.enabled": false,
   "bar.customModules.worldclock.formatDiffDate": "%a %b %d  %I:%M:%S %p %Z",
   "bar.customModules.worldclock.showIcon": true,
-  "menus.dashboard.powermenu.avatar.image": "/home/itselijahwood/programming/projects/Personal/Discord/Emojis/tuxpc.gif",
+  "menus.dashboard.powermenu.avatar.image": "/home/itselijahwood/.config/dotfiles/wallpapers/icons/ArchLinuxLogo.png",
   "menus.clock.time.military": true,
   "menus.clock.time.hideSeconds": true,
   "theme.font.size": "1.2rem",
