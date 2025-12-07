@@ -19,14 +19,12 @@ sudo pacman -S --noconfirm \
       bluez-utils \
       nodejs \
       npm \
-      dd \
       bind-tools \
       shotcut \
       obs-studio \
       grim \
       swappy \
       rofi \
-      aylurs-gtk-shell-git \
       wireplumber \
       libgtop \
       networkmanager \
