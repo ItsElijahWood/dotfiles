@@ -1,26 +1,26 @@
 * {
-    bg: rgba(45, 70, 90, 0.90);
-    fgd: #e8f6ff;
-    grn: #78c6c9;
-    cya: #aee8ff;
-    ora: #ffd6b0;
-    pur: #d3b7ff;
-    red: #ff8f9a;
-    yel: #ffe9b0;
+    bg: #101116;                
+    fgd: #e8f6ff;               
+    grn: #C4A7E7;               
+    cya: #C4A7E7;               
+    ora: #C4A7E7;               
+    pur: #C4A7E7;               
+    red: #FF8F9A;               
+    yel: #FFE9B0;               
 
-    font: "Cartograph CF 12";
-
+    font: "JetBrainsNL Nerd Font Propo Regular 13";
+    
     foreground: @fgd;
     background: @bg;
-    active-background: @grn;
-    urgent-background: @red;
+    active-background: @grn;     
+    urgent-background: @red;     
 
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
 
-    separatorcolor: @cya;
-    bordercolor: @ora;
+    separatorcolor: @cya;       
+    bordercolor: @ora;         
 }
 
 #window {
