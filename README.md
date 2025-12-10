@@ -10,3 +10,5 @@ Custom cursors folder (GTK) gets put in /usr/share/icons follow https://wiki.arc
 Rofi configurations in -/.config/dotfiles/rofi
 
 Install zsh aswell as powerlevel10k as theme https://github.com/romkatv/powerlevel10k
+
+Install youtube music https://github.com/pear-devs/pear-desktop
